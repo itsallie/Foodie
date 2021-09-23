@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
-import RecipePage from './pages/RecipePage';
-import RestarantPage from './pages/RestaurantPage';
+import RecipeAPI from './components/RecipeAPI';
+import RestarantAPI from './components/RestaurantAPI';
 import Contact from './pages/Contact';
 import Footer from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -18,8 +18,8 @@ function App() {
           <Switch>
             <Route path='/' exact component={Home} />
             <Route path='/home' component={Home} />
-            <Route path='/recipe' component={RecipePage} />
-            <Route path='/restaurant' component={RestarantPage} />
+            <Route path='/recipes' component={RecipeAPI} />
+            <Route path='/restaurants' component={RestarantAPI} />
             <Route path='/contact' component={Contact} />
           </Switch>
         </Router>
