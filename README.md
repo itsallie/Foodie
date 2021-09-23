@@ -4,4 +4,5 @@ Foodie helps you decide whether you choose to stay inside and cook from a recipe
 This website is for people who are undecisive and need to choose to eat in or eat out and food lovers! &#129316; <br/>
 
 <br/>
-This website is created by react and uses react-bootstrap.
+This website is created by react and uses react-bootstrap. <br/>
+DocuMenu API and TheMealDB API was used in this website.
