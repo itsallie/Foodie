@@ -142,11 +142,35 @@ main {
     
 }
 
+/* restaurant */
+.rest-title {
+    text-align: center;
+    margin: 20px;
+}
 
+.rest-text {
+    text-align: center;
+} 
 
+.rest-content {
+    border: thin solid black;
+    border-radius: 10px;
+    width: 800px;
+    height: 220px;
+    margin: 20px auto;
+    padding: 20px;
+    line-height: .5;
+    text-align: center;
+}
 
+.rest-content a {
+    line-height: 1;
+}
 
-
+.rest-name{
+    text-align: center;
+    padding: 0;
+}
 
 
 
