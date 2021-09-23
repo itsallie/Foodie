@@ -20,7 +20,7 @@ function RestaurantAPI() {
         fetch(`https://documenu.p.rapidapi.com/restaurants/zip_code/${query}`, {
             "method": "GET",
             "headers": {
-                "x-api-key": "0a4964bb0919772be96300dd3ef6bdde",
+                "x-api-key": "035f3d44b094f9e9a6e61e4fa5654995",
                 "x-rapidapi-host": "documenu.p.rapidapi.com",
                 "x-rapidapi-key": "c282c71dd0msh730ea86915ec62cp19db59jsnc4dec27e691c"
             }
@@ -51,7 +51,7 @@ function RestaurantAPI() {
             <h1 className="rest-title">Restaurants</h1>
             <p className="rest-text">Enter a zipcode to search for nearby restaurants!</p>
             <form onSubmit={getSearch} className="search-form">
-                <input className="search-bar mr-2" type="text" value={search} onChange={updateSearch} />
+                <input className="search-bar mr-2" type="text" value={search} onChange={updateSearch} placeholder="ZipCode" required />
                 <button className="search-btn btn-dark" type="submit">Search</button>
             </form>
             <div>

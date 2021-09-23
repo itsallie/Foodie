@@ -43,7 +43,7 @@ function RecipeAPI() {
             <h1 className="recipe-title">Recipes</h1>
             <p className="recipe-text">Enter an ingredient you would like to cook with: </p>
             <form onSubmit={getSearch} className='search-form'>
-                <input className='search-bar mr-2' type='text' value={search} onChange={updateSearch} />
+                <input className='search-bar mr-2' type='text' value={search} onChange={updateSearch} placeholder="Ingredient" required />
                 <button className='search-btn btn-dark' type='submit' >Search</button>
             </form>
             <div className="recipe-content">

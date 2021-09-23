@@ -1,5 +1,5 @@
 nav {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.719);
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -18,8 +18,16 @@ nav {
     cursor: pointer;
 }
 
+.nav-link :hover{
+    color: white;
+}
+
 .navmenu {
     display: flex;
     align-items: center;
     margin-right: -24px;
+}
+
+.navmenu .nav-link {
+    color:white
 }
