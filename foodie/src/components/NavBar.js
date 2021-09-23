@@ -8,7 +8,7 @@ function NavBar() {
         <>
             <nav>
                 <Link className="nav-link" to='/'>
-                    <GoLocation /><h1>FOODIE</h1>
+                    <h1><GoLocation />FOODIE</h1>
                 </Link>
                 <div className="navmenu">
                     <Link className="nav-link" to='/home'>
